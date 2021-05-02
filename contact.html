@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width,initial-scale=1.0">
+	<title>Contact us</title>
+	<link rel="stylesheet" href="websitecss.css">
+	<link rel="stylesheet"href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+	<link rel="Stylesheet" href="/home/aditi/Desktop/divisor.in/website">
+	<link rel="Stylesheet" href="./css/all.css">
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="#"class="logo">Little<span>Paw</span></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fas fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="planning.html">Planning</a></li>
+						<li><a href="breed.html">Breed</a></li>
+						<li><a href="contact.html">Contanct us</a></li>
+						</ul>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+			</nav>
+			
+				<h1>Contact Us</h1>
+		</section>
+<!----------------------------map------------------>
+			<section class="location">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119981.3871015123!2d73.73326828304508!3d19.99094922862537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddd290b09914b3%3A0xcb07845d9d28215c!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1619884212331!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen></iframe>
+
+		</section>
+
+			<section class="contact-us">
+				<div class="row">
+					<div class="contact-col">
+						<div>
+							<i class="fas fa-home"></i>
+
+							<span>
+								<h5>XYZ Road,ABC Building</h5>
+								<p> Nashik, Maharashtra IN</p>
+							</span>
+						</div>
+						<div>
+							<i class="fas fa-phone"></i>
+							<span>
+								<h5>+91 0972654576</h5>
+								<p> Monday to Saturday,10 AM to 6PM</p>
+							</span>
+						</div>
+						<div>
+							<i class="far fa-envelope"></i>
+							<span>
+								<h5>LittlePaw@gmail.com</h5>
+								<p> Email us your query</p>
+							</span>
+					
+						</div>
+					</div>
+					<div class="contact-col">
+					<form action="form-handler.php" method="post">
+						<input type="text" name="name" placeholder="Enter Your Name" required>
+						<input type="email"name="email" placeholder="Enter Your Email" required>
+						<input type="text" name="Subject" placeholder="Enter Your Subject" required>
+						<textarea rows="8"  name="massage" placeholder="massage" required></textarea>
+						<button type="submit" class="btn-red">Send Massage</button>
+					</form>
+				</div>
+				</div>
+			</section>
+
+<!--------------------------------footer------------------------>
+		<section class="footer">
+			<h4>About Us</h4>
+			<p> Dogs are the only species that when frightened, worried, or anxious, run to their humans for comfort, just like children do.<br> They are also the only species that seek eye-contact with their humans.</p>
+			<div class="icons">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+				<i class="fab fa-linkedin"></i>
+			</div>
+			<p>Buy With <i class="far fa-heart"></i> With Us</p>
+		</section>
+		<!---javascript for toggle menu--->
+		<Script>
+			var navLink=document.getElementById("navLinks");
+			function showMenu()
+			{
+				navLinks.style.right="0";
+			}
+			function hideMenu()
+			{
+				navLinks.style.right="-200px";
+			}
+		</Script>
+	</body>
+</html>
